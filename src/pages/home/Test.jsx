@@ -23,11 +23,11 @@ function App() {
 
   const handleShowConsole = () => {
     // harap tampilkan : "hobi saya ngoding" didalam console log
-    console.log();
+    console.log(DummyData[0].type + " saya " + DummyData[0].listType[2]);
 
     // harap tampilkan : "test1, dan test2" didalam console log
-    console.log();
-    console.log();
+    console.log(DummyData2[0][0][0][0]);
+    console.log(DummyData2[0][0][0][1][0]);
   };
 
   return (

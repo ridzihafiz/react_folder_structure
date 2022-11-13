@@ -1,20 +1,21 @@
-// import React from "react";
-// import "./App.css";
-// import { Routes, Route } from "react-router-dom";
-// import { Home, Login, Registration } from "./pages";
+import React from "react";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import { Home, Login, Registration } from "./pages";
 
-// export default function App() {
-//   return (
-//     <Routes>
-//       <Route path="/" element={<Home />} />
-//       <Route path="/login" element={<Login />} />
-//       <Route path="/register" element={<Registration />} />
-//       <Route path="/test" element={<></>} />
-//       <Route path="*" element={<> Error 404 Page Not Found </>} />
-//     </Routes>
-//   );
-// }
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Registration />} />
+      <Route path="/test" element={<></>} />
+      <Route path="*" element={<> Error 404 Page Not Found </>} />
+    </Routes>
+  );
+}
 
+/*
 import "./App.css";
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
 
   const handleShowConsole = () => {
     // harap tampilkan : "hobi saya ngoding" didalam console log
-    console.log(DummyData);
+    console.log(DummyData[0].type + " saya " + DummyData[0].listType[2]);
 
     // harap tampilkan : "test1, dan test2" didalam console log
     console.log(DummyData2[0][0][0][0]);
@@ -62,3 +63,4 @@ function App() {
 }
 
 export default App;
+*/

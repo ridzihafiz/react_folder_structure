@@ -1,3 +1,3 @@
-import ImageShalua from "./shalua.jpeg";
+import ImageIkea from "./ikea.png";
 
-export { ImageShalua };
+export { ImageIkea };
